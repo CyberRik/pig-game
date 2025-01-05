@@ -75,8 +75,6 @@ btnRoll.addEventListener('click', function () {
 
 btnHold.addEventListener('click', function () {
   if (Playing) {
-    diceEl.classList.add('hidden');
-
     scores[ActivePlayer] += CurrentScore;
     document.getElementById(`score--${ActivePlayer}`).textContent =
       scores[ActivePlayer];
