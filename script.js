@@ -46,7 +46,7 @@ const init = function () {
 init();
 
 const SwitchPlayer = function () {
-  let CurrentScore = 0;
+  CurrentScore = 0;
   document.getElementById(`current--${ActivePlayer}`).textContent =
     CurrentScore;
   ActivePlayer = ActivePlayer === 0 ? 1 : 0;
